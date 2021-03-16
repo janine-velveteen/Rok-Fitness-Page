@@ -293,13 +293,13 @@
 
 /* Trainers Section */
 
-.trainer-image img {
-  border-radius: 50%;
-  padding: 3rem;
+.trainers-section img {
+  flex: 1; 
+  margin-right: 2rem;
+  
 }
 
-.trainers div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.trainers-section h3 p {
+  flex: 1;
+  justify-content: space-between;
 }
