@@ -1,9 +1,5 @@
 /* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   html {
     font-size: 62.5%;
@@ -144,16 +140,19 @@
   }
   
   .cards img {
-    max-width: 30%;
-    margin: 2rem;
+    max-width: 40%;
+    margin-left: 10rem;
     
   }
   
   .card-icon {
     background: #2d415ab0;
-    width: 100%;
+    
+    padding-left: 5rem;
     
   }
+
+  
   
   .card h4,
   .card p {
@@ -293,13 +292,32 @@
 
 /* Trainers Section */
 
-.trainers-section img {
-  flex: 1; 
-  margin-right: 2rem;
-  
+.trainer-description {
+  margin-top: 70px;
 }
 
-.trainers-section h3 p {
-  flex: 1;
-  justify-content: space-between;
+.trainers-section h3 {
+  font-weight: 700;
+}
+
+.trainers-section img {
+  
+  padding: 25px;
+  margin: -30px;
+}
+
+@media (max-width: 900px) {
+  .trainers-section img {
+    padding: 20px;
+  }
+  .classes-image img {
+    display: none;
+  }
+
+  .classes-text h2 h3 p {
+   
+      padding: 0;
+    text-align: center;
+        
+  }
 }
