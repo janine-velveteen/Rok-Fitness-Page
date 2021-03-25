@@ -212,6 +212,13 @@
   footer {
     color: white;
     background: rgba(19, 38, 39, 1);
+    
+  }
+
+  .contact-footer  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   
   .footer-wrapper {
@@ -297,9 +304,6 @@
 .trainers-description {
   margin-top: 50rem;
 }
-.angelica {
-  margin-top: 30rem;
-}
 
 .trainers-section h3 {
   font-weight: 700;
@@ -311,6 +315,3 @@
   margin: -30px;
 }
 
-@media (max-width: 900px) {
-  
-}
